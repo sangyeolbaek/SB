@@ -27,3 +27,6 @@ The data contains over 1.5 million rows containing information dating from late-
 7. Use FBProphet API to create forcasting plots for MONTHLY and WEEKLY aggregated plots
 8. Compare results from #6 and #7
 9. Provide recommendations on how to improve future analysis
+
+## Deliverables
+I will provide the associated code (Jupyter notebooks), papers, and presentation.
