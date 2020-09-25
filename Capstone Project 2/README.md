@@ -2,6 +2,14 @@
 ## Overview
 This project focuses on building an image classifying model that would be able to spot (no pun intended) the difference between several big cat breeds with similar appearences.
 
+Links for files:
+- Building models for the dataset:
+	- [Part 1](https://github.com/sangyeolbaek/SB/blob/master/Capstone%20Project%202/image_processing_capstone2_1.ipynb)
+	- [Part 2](https://github.com/sangyeolbaek/SB/blob/master/Capstone%20Project%202/image_processing_capstone2_2.ipynb)
+- Using LIME to analyze the model's interpretations for each image:
+	- [Image Interpretations](https://github.com/sangyeolbaek/SB/blob/master/Capstone%20Project%202/image_interpretation_capstone2.ipynb)
+- Milestone Report: 
+
 
 ## Target Audience
 The target audience for this project could be diverse, but for this project, it aims at:
