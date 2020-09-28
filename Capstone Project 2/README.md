@@ -8,7 +8,7 @@ Links for files:
 	- [Part 2](https://github.com/sangyeolbaek/SB/blob/master/Capstone%20Project%202/image_processing_capstone2_2.ipynb)
 - Using LIME to analyze the model's interpretations for each image:
 	- [Image Interpretations](https://github.com/sangyeolbaek/SB/blob/master/Capstone%20Project%202/image_interpretation_capstone2.ipynb)
-- Milestone Report: [Report] (https://github.com/sangyeolbaek/SB/blob/master/Capstone%20Project%202/Capstone%20Project%202%20Milestone%20Report%202.pdf)
+- Milestone Report: [Report](https://github.com/sangyeolbaek/SB/blob/master/Capstone%20Project%202/Capstone%20Project%202%20Milestone%20Report%202.pdf)
 
 
 ## Target Audience
