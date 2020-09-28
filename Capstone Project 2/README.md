@@ -1,4 +1,4 @@
-# Capstone Project #2: Spot the Difference
+# Capstone Project #2: Classifying Images of Spotted Cat Breeds
 ## Overview
 This project focuses on building an image classifying model that would be able to spot (no pun intended) the difference between several big cat breeds with similar appearences.
 
@@ -37,11 +37,32 @@ https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmb
 
 
 ## Results
-- (to be added...)
+|                    | Train Acc | Train Loss | Val Acc | Val Loss |
+| :---               |       --: |        --: |     --: |      --: |
+| Simple Model       | 24.3%     | 8.72       | 24.5%   | 8.82     |
+| w/ Few Conv Layers | 24.7%     | 5.01       | 25.5%   | 4.98     |
+| ResNet50           | 96.0%     | 0.142      | 84.6%   | 0.492    |
+
+Clearly, applying transfer learning with the ResNet50 layer has tremendously boosted the model's accuracy. But, to refine the ResNet50 model even further:
+1. Original
+2. With `rescale=1./255.` for each image in the `ImageDataGenerator`
+3. Change target size from 160x160 to 200x200
+4. With addition to #3, `lr = 0.01`
+5. With addition to #3, increase number of epochs: 5 -> 8
+
+|    | Train Acc | Train Loss | Val Acc | Val Loss |
+| :--|       --: |        --: |     --: |      --: |
+| #1 | 96.0% | 0.142 | 84.6% | 0.492 |
+| #2 | 43.1% | 1.28 | 42.9% | 1.27 |
+| #3 | 97.7% | 0.0915 | 87.0% | 0.420 |
+| #4 | 96.9% | 0.131 | 85.4% | 0.828 |
+| #5 | 97.7% | 0.0871 | 88.3% | 0.544 |
+
 
 ## Limitations
 - Since this project focuses on image classification, using statistical techniques to solve this problem is impractical.
-- (more...)
+- With the time constraint, I found it impractical to be dedicated to fine-tuning every layer's parameters, especially a model containing the ResNet50
+
 
 ## Deliverables
 I will provide the associated code (Jupyter notebooks), and the milestone report covering my approaches and findings.
