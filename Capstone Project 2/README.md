@@ -62,8 +62,8 @@ Clearly, applying transfer learning with the ResNet50 layer has tremendously boo
 
 ### Model Interpretation
 Here are some images generated using LIME, a module for analyzing how a model interpreted each image, one for each category.
-![Cheetah](Images for README/cheetah_img.png) ![Jaguar](Images for README/jaguar_img.png)
-![Leopard](Images for README/leopard_img.png) ![Snow Leopard](Images for README/snow_leopard_img.png)
+![Cheetah](Images_README/cheetah_img.png) ![Jaguar](Images_README/jaguar_img.png)
+![Leopard](Images_README/leopard_img.png) ![Snow Leopard](Images_README/snow_leopard_img.png)
 
 While LIME is not perfect, for the above images it seems to mainly highlight the spots on the creatures, which is the desired effect, as the spots are the main distinguishing attributes for each cat breed.
 
