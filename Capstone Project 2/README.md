@@ -37,6 +37,8 @@ https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmb
 
 
 ## Results
+
+### Model
 |                    | Train Acc | Train Loss | Val Acc | Val Loss |
 | :---               |       --: |        --: |     --: |      --: |
 | Simple Model       | 24.3%     | 8.72       | 24.5%   | 8.82     |
@@ -57,6 +59,13 @@ Clearly, applying transfer learning with the ResNet50 layer has tremendously boo
 | #3 | 97.7% | 0.0915 | 87.0% | 0.420 |
 | #4 | 96.9% | 0.131 | 85.4% | 0.828 |
 | #5 | 97.7% | 0.0871 | 88.3% | 0.544 |
+
+### Model Interpretation
+Here are some images generated using LIME, a module for analyzing how a model interpreted each image, one for each category.
+![Cheetah](Images for README/cheetah_img.png) ![Jaguar](Images for README/jaguar_img.png)
+![Leopard](Images for README/leopard_img.png) ![Snow Leopard](Images for README/snow_leopard_img.png)
+
+While LIME is not perfect, for the above images it seems to mainly highlight the spots on the creatures, which is the desired effect, as the spots are the main distinguishing attributes for each cat breed.
 
 
 ## Limitations
