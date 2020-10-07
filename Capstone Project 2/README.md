@@ -73,5 +73,11 @@ While LIME is not perfect, for the above images it seems to mainly highlight the
 - With the time constraint, I found it impractical to be dedicated to fine-tuning every layer's parameters, especially a model containing the ResNet50
 
 
+## Next step I can take?
+- Find a means to detect the creature in an image for better accuracy
+- Use a bigger image dataset or use a larger target size for the model
+- Use a different architecture for the model besides ResNet50
+
+
 ## Deliverables
 I will provide the associated code (Jupyter notebooks), and the milestone report covering my approaches and findings.
